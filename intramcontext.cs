@@ -27,7 +27,8 @@ public class IntramsContext : DbContext
 
         modelBuilder.Entity<Sports>().HasData(
             new Sports { Id = 1, SportsName = "Football" },
-            new Sports { Id = 2, SportsName = "Basketball" }
+            new Sports { Id = 2, SportsName = "Basketball" },
+            new Sports { Id = 3, SportsName = "Chess" }
         );
 
         modelBuilder.Entity<Location>().HasData(
